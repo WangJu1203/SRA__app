@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <sideBar__app></sideBar__app>
-    <router-view></router-view>
-    <!-- <info__app></info__app>
-    <request__app></request__app> -->
+    <div class="app-container">
+      <!-- <sideBar__app></sideBar__app> -->
+      <sidebarAmin_app></sidebarAmin_app>
+
+      <!-- <request__app></request__app> -->
+    </div>
   </div>
 </template>
 
 <script>
-import SideBar from "./components/Sidebar/index.vue";
-// import Info from "./components/Info/index.vue";
+// import SideBar from "./components/Sidebar/index.vue";
+import SidebarAdmin from "./components/SidebarAdmin/index.vue";
 export default {
   name: "App",
   components: {
-    // info__app: Info,
-    sideBar__app: SideBar,
+    // sideBar__app: SideBar,
+    sidebarAmin_app: SidebarAdmin,
   },
 };
 </script>
@@ -35,5 +37,9 @@ body {
     hsla(0, 0%, 97.3%, 0.46) 73%,
     hsla(0, 0%, 100%, 0)
   );
+}
+
+.app-container {
+  max-width: 1440px;
 }
 </style>

@@ -24,16 +24,10 @@
         </li>
       </ul>
     </div>
-    <section>
-      <header__app></header__app>
-      <!-- <info__app></info__app> -->
-    </section>
   </div>
 </template>
 
 <script>
-import Header from "../Header/index.vue";
-// import Info from "../Info/index.vue";
 export default {
   name: "RsaAppIndex",
 
@@ -51,10 +45,7 @@ export default {
       this.$router.push("/request");
     },
   },
-  components: {
-    header__app: Header,
-    // info__app: Info,
-  },
+  components: {},
 };
 </script>
 
@@ -155,10 +146,5 @@ label #cancel {
 }
 #check:checked ~ section {
   margin-left: 250px;
-}
-section {
-  background-position: center;
-  background-size: cover;
-  transition: all 0.5s;
 }
 </style>
