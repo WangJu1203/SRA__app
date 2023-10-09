@@ -20,6 +20,7 @@
     "font-awesome": "^4.7.0",
     "sass": "^1.68.0",
     "vue": "^2.6.14",
+    "vue-multiselect": "^2.1.7",
     "vue-router": "^2.8.1",
     "vue2-sidebar": "^0.0.17"
   },
