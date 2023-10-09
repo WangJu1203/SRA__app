@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="request" style="margin-left: 20px">
+    <div id="request" style="margin-left: 270px">
       <h2>Request</h2>
     </div>
   </div>

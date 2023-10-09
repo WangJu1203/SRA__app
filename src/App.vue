@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="app-container">
-      <!-- <sideBar__app></sideBar__app> -->
-      <sidebarAmin_app></sidebarAmin_app>
+      <sideBar__app></sideBar__app>
+      <!-- <sidebarAmin_app></sidebarAmin_app> -->
 
       <!-- <request__app></request__app> -->
     </div>
@@ -10,13 +10,13 @@
 </template>
 
 <script>
-// import SideBar from "./components/Sidebar/index.vue";
-import SidebarAdmin from "./components/SidebarAdmin/index.vue";
+import SideBar from "./components/Sidebar/index.vue";
+// import SidebarAdmin from "./components/SidebarAdmin/index.vue";
 export default {
   name: "App",
   components: {
-    // sideBar__app: SideBar,
-    sidebarAmin_app: SidebarAdmin,
+    sideBar__app: SideBar,
+    // sidebarAmin_app: SidebarAdmin,
   },
 };
 </script>

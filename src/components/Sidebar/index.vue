@@ -24,10 +24,16 @@
         </li>
       </ul>
     </div>
+
+    <div class="pl-3">
+      <header_app></header_app>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
+import Header from "../Header/index.vue";
 export default {
   name: "RsaAppIndex",
 
@@ -45,7 +51,9 @@ export default {
       this.$router.push("/request");
     },
   },
-  components: {},
+  components: {
+    header_app: Header,
+  },
 };
 </script>
 

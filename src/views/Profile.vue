@@ -1,6 +1,6 @@
 <template>
   <div id="info">
-    <b-row style="margin-left: 20px">
+    <b-row style="margin-left: 270px">
       <b-tabs content-class="mt-3">
         <b-tab title="UserInfo" active>
           <p><user__info></user__info></p
