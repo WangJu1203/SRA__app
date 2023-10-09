@@ -1,12 +1,12 @@
 <template>
-  <div id="header" style="width: 100%">
+  <div id="header" style="width: 100%; padding: 10px 0">
     <div class="container">
-      <div class="d-flex flex-row-reverse">
+      <div class="d-flex flex-row-reverse" style="height: 50px">
         <div class="p-2" style="cursor: pointer">
           <img src="../../assets///svg/moon.svg" alt="" class="ms-3" />
         </div>
         <div class="p-2" style="cursor: pointer">
-          <span class="ms-3">Nguyen Van Duong</span>
+          <span class="ms-3" style="font-size: 24px">Nguyen Van Duong</span>
         </div>
         <div class="p-2" style="cursor: pointer">
           <img src="../../assets//svg/user.svg" alt="" class="ms-3" />
@@ -61,5 +61,10 @@ export default {
 }
 .navbar {
   background: #fff;
+}
+
+img {
+  width: 24px;
+  height: 24px;
 }
 </style>

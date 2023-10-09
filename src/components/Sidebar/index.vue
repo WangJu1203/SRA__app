@@ -1,11 +1,11 @@
 <template>
-  <div id="SideBar">
-    <input type="checkbox" id="check" />
-    <label for="check">
+  <div id="SideBar" style="width: 100%">
+    <input type="checkbox" id="check" style="min-height: 100vh; width: 100px" />
+    <label for="check" style="margin-right: 40px">
       <i class="fas fa-bars" id="btn"></i>
       <i class="fas fa-times" id="cancel"></i>
     </label>
-    <div class="sidebar">
+    <div class="sidebar" style="margin-right: 40px">
       <header>Smart OSC</header>
       <ul>
         <li>
@@ -25,10 +25,10 @@
       </ul>
     </div>
 
-    <div class="pl-3">
+    <section>
       <header_app></header_app>
       <router-view></router-view>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -154,5 +154,9 @@ label #cancel {
 }
 #check:checked ~ section {
   margin-left: 250px;
+}
+
+section {
+  transition: 0.5s ease all;
 }
 </style>

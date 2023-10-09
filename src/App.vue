@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <div class="app-container">
-      <sideBar__app></sideBar__app>
-      <!-- <sidebarAmin_app></sidebarAmin_app> -->
+    <sideBar__app></sideBar__app>
+    <!-- <sidebarAmin_app></sidebarAmin_app> -->
 
-      <!-- <request__app></request__app> -->
-    </div>
+    <!-- <request__app></request__app> -->
   </div>
 </template>
 

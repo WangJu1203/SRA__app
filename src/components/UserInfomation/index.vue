@@ -19,13 +19,9 @@
                 <b-row>
                   <b-col d-flex flex-row>
                     <ul>
-                      <li>
+                      <li class="">
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Status</a
+                          ><i class="fa-regular fa-star me-2"></i>Status</a
                         >
                       </li>
                       <li>
@@ -48,11 +44,7 @@
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Gender</a
+                          ><i class="fa-regular fa-heart me-2"></i>Gender</a
                         >
                       </li>
                     </ul>
@@ -77,11 +69,7 @@
                     <ul>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Division</a
+                          ><i class="fa-solid fa-house me-2"></i>Division</a
                         >
                       </li>
                       <li>
@@ -95,65 +83,39 @@
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Resource Owner</a
+                          ><i class="fa-solid fa-users me-2"></i>Resource
+                          Owner</a
                         >
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Title</a
+                          ><i class="fa-solid fa-book me-2"></i>Title</a
                         >
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Rank</a
+                          ><i class="fa-solid fa-ranking-star me-2"></i>Rank</a
+                        >
+                      </li>
+                      <li>
+                        <a href=""><i class="fa-solid fa-tv me-2"></i>Ratio</a>
+                      </li>
+                      <li>
+                        <a href=""
+                          ><i class="fa-solid fa-wrench me-2"></i>Total
+                          Projects</a
                         >
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Ratio</a
+                          ><i class="fa-solid fa-timeline me-2"></i>Total
+                          Hours</a
                         >
                       </li>
                       <li>
                         <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Total Projects</a
-                        >
-                      </li>
-                      <li>
-                        <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Total Hours</a
-                        >
-                      </li>
-                      <li>
-                        <a href=""
-                          ><img
-                            src="../../assets//svg/user.svg"
-                            alt="#"
-                            class="me-2"
-                          />Total Running Projects</a
+                          ><i class="fa-solid fa-car me-2"></i>Total Running
+                          Projects</a
                         >
                       </li>
                     </ul>

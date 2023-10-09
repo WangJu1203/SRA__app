@@ -1,5 +1,5 @@
 <template>
-  <div id="request" style="margin-left: 270px">
+  <div id="request" class="container">
     <div class="filter">
       <p class="card-header">Filters</p>
       <div class="card-body">
@@ -61,7 +61,7 @@
             ></multiselect>
           </div>
         </div>
-        <div>
+        <div style="margin: 20px 0">
           <button class="btn-reset">Reset filter</button>
         </div>
       </div>

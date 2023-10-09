@@ -1,6 +1,6 @@
 <template>
   <div id="info">
-    <b-row style="margin-left: 270px">
+    <div class="container">
       <b-tabs content-class="mt-3">
         <b-tab title="UserInfo" active>
           <p><user__info></user__info></p
@@ -10,7 +10,7 @@
             <woking__detail></woking__detail></p
         ></b-tab>
       </b-tabs>
-    </b-row>
+    </div>
   </div>
 </template>
 
